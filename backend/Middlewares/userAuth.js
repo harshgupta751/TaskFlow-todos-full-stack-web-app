@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken'
-import { configDotenv } from 'dotenv'
+import dotenv from 'dotenv'
+dotenv.config()
 
 export function userAuth(req,res,next){
 const token=req.headers.token

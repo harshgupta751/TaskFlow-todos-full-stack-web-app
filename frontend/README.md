@@ -1,12 +1,32 @@
-# React + Vite
+# TodoFlow 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TodoFlow is a modern and responsive full-stack Todo web app built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) with authentication and dynamic filters.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧑‍💻 User SignUp and Login with JWT Authentication
+- 🎨 Beautiful UI with Dark Mode Support
+- ✅ Add, Edit, Delete Todos
+- 🔍 Search & Sort Todos
+- 🗓️ Filter by timeframe (Today, This Week, Overdue, Upcoming)
+- 📆 Filter by priority (Low, Medium, High)
+- 🧹 Delete all Todos with confirmation
+- 🔒 Secure backend with Zod validation and Bcrypt password hashing
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React + Tailwind CSS + Axios
+- **Backend**: Node.js + Express.js
+- **Database**: MongoDB (with Mongoose)
+- **Validation**: Zod
+- **Authentication**: 
+- **Routing**: react-router-dom
+- **Icons**: Lucide-react
+- **Loading && Alerts**:  react-hot-toast
+- **Confirmation**: sweetalert2
+
+## 🛠️ Setup Instructions
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/harshgupta751/TodoFlow.git

@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 const Schema=mongoose.Schema
 const ObjectId=Schema.Types.ObjectId
-import { configDotenv } from "dotenv";
-
+import dotenv from 'dotenv'
+dotenv.config()
 
 mongoose.connect(process.env.MONGOOSE_URL)
 
