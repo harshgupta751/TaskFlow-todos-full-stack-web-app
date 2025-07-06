@@ -13,7 +13,7 @@ import cors from 'cors'
 
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: ['http://localhost:5173','https://todoflow-todos-web-app.netlify.app/'],
     credentials: true
 }))
 
