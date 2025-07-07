@@ -109,7 +109,7 @@ const response= await axiosInstance.post('/create', todoForm);
         setTodoForm({
             title:"",
             deadline:"",
-            priority: ""
+            priority: "high"
         })
     }catch(e){
         toast.error("Error Occured. Please try again!",{id: toastId})
@@ -125,7 +125,7 @@ const response= await axiosInstance.put('/update', todoForm);
         setTodoForm({
             title:"",
             deadline:"",
-            priority: ""
+            priority: "high"
         })
     }catch(e){
         toast.error("Error Occured. Please try again!",{id: toastId})
