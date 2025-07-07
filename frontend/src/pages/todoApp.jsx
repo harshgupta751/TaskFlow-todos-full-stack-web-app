@@ -123,6 +123,7 @@ const response= await axiosInstance.post('/create', todoForm);
 const response= await axiosInstance.put('/update', todoForm);
         toast.success("Todo updated successfully!",{id: toastId})
         setShowAddForm(!showAddForm)
+        setEditingTodo(false)
         setData()
         setTodoForm({
             title:"",
