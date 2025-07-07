@@ -96,7 +96,8 @@ return function(){
 
 
 
-async function handleSubmitTodo(){
+async function handleSubmitTodo(e){
+    e.preventDefault()
 if(todoForm.title!="" && todoForm.deadline!="" && todoForm.priority!=""){
     
 if(!editingTodo){
