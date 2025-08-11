@@ -29,4 +29,4 @@ TaskFlow is a modern and responsive full-stack Todo web app built using the **ME
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/harshgupta751/TaskFlow.git
+   git clone https://github.com/harshgupta751/TaskFlow-todos-full-stack-web-app.git
