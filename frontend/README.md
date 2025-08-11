@@ -1,6 +1,6 @@
-# TodoFlow 📝
+# TaskFlow 📝
 
-TodoFlow is a modern and responsive full-stack Todo web app built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) with authentication and dynamic filters.
+TaskFlow is a modern and responsive full-stack Todo web app built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js) with authentication and dynamic filters.
 
 ## 🌟 Features
 
@@ -29,4 +29,4 @@ TodoFlow is a modern and responsive full-stack Todo web app built using the **ME
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/harshgupta751/TodoFlow.git
+   git clone https://github.com/harshgupta751/TaskFlow.git

@@ -97,23 +97,11 @@ return (usernameValid && passwordValid && confirmPasswordValid && zodvalid)
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     return (
         <div className={darkMode ? 'dark' : ''}>
           <div className="flex justify-between items-center px-6 py-4 bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-800">
             <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400 tracking-wide">
-              TodoFlow
+              TaskFlow
             </h1>
             <button
               onClick={toggleDarkMode}

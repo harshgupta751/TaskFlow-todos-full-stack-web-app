@@ -307,7 +307,7 @@ confirmButtonText: "Yes"
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                TodoFlow
+                TaskFlow
               </h1>
               <div className="ml-4 text-sm text-gray-600 dark:text-gray-400">
                 {filteredAndSortedTodos.length} of {todos.length} todos
