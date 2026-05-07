@@ -51,7 +51,7 @@ jobs:
             sudo docker run -d \
               --name taskflow-backend \
               -p 3000:3000 \
-              -e MONGO_URI='${{ secrets.MONGOOSE_URL }}' \
+              -e MONGOOSE_URL='${{ secrets.MONGOOSE_URL }}' \
               -e JWT_SECRET='${{ secrets.JWT_SECRET }}' \
               -e PORT='${{ secrets.PORT }}' \
               harshgupta100/taskflow-backend:latest
